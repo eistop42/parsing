@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин спортивных товаров</title>
+    <style>
+        .store-container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .sport-card {
+            background: #f5f5f5;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #2c3e50;
+        }
+        .item-header {
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        .price-container {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .final-price {
+            font-size: 1.2em;
+            color: #27ae60;
+        }
+        .attributes {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="store-container">
+        <h1>Спортивные товары</h1>
+        
+        <article class="sport-card" data-id="115" data-stock="true">
+            <div class="item-header">
+                <h3>🏸 Бадминтонная ракетка Yonex Carbonex 8000</h3>
+                <div class="brand">Yonex</div>
+            </div>
+            <div class="price-container">
+                <span class="final-price">8 490 ₽</span>
+                <del>9 999 ₽</del>
+            </div>
+            <div class="attributes">
+                <ul>
+                    <li>Вес: 85г</li>
+                    <li>Рейтинг: ★★★★☆ (127 отзывов)</li>
+                    <li>Категория: Бадминтон</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="sport-card" data-id="227" data-stock="false">
+            <div class="item-header">
+                <h3>⚽ Футбольный мяч Adidas Finale 21</h3>
+                <div class="brand">Adidas</div>
+            </div>
+            <div class="price-container">
+                <span class="final-price">4 299 ₽</span>
+            </div>
+            <div class="attributes">
+                <ul>
+                    <li>Размер: 5</li>
+                    <li>Рейтинг: ★★★★★ (89 отзывов)</li>
+                    <li>Категория: Футбол</li>
+                </ul>
+            </div>
+            <div class="notice">Ожидается поставка 20.08.2024</div>
+        </article>
+
+        <article class="sport-card" data-id="332" data-stock="true">
+            <div class="item-header">
+                <h3>🎾 Теннисная ракетка Wilson Pro Staff v14</h3>
+                <div class="brand">Wilson</div>
+            </div>
+            <div class="price-container">
+                <span class="final-price">23 790 ₽</span>
+                <del>25 900 ₽</del>
+            </div>
+            <div class="attributes">
+                <ul>
+                    <li>Вес: 315г</li>
+                    <li>Рейтинг: ★★★☆☆ (64 отзыва)</li>
+                    <li>Категория: Теннис</li>
+                    <li>Гриф: 2-я рукоятка</li>
+                </ul>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
