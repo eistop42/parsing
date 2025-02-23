@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин электроники</title>
+    <style>
+        .product-list {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        .discount {
+            color: red;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-list">
+        <h1>Популярные товары</h1>
+        
+        <div class="product-item" data-category="phones">
+            <h2 class="product-name">Смартфон Xiaomi Redmi Note 12</h2>
+            <div class="price">19 999 ₽</div>
+            <div class="rating">Рейтинг: ★★★★☆</div>
+        </div>
+
+        <div class="product-item" data-category="laptops">
+            <h2 class="product-name">Ноутбук ASUS VivoBook 15</h2>
+            <div class="price">
+                <span class="discount">45 999 ₽</span>
+                39 999 ₽
+            </div>
+            <div class="rating">Рейтинг: ★★★★★</div>
+        </div>
+
+        <div class="product-item" data-category="headphones">
+            <h2 class="product-name">Наушники Sony WH-1000XM5</h2>
+            <div class="price">29 499 ₽</div>
+            <div class="rating">Рейтинг: ★★★★☆</div>
+            <div class="description">Беспроводные наушники с шумоподавлением</div>
+        </div>
+
+        <div class="product-item" data-category="tablets">
+            <h2 class="product-name">Планшет Samsung Galaxy Tab S9</h2>
+            <div class="price">54 990 ₽</div>
+            <div class="rating">Рейтинг: ★★★☆☆</div>
+        </div>
+    </div>
+</body>
+</html>
